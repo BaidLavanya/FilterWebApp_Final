@@ -1,0 +1,30 @@
+h2 {
+    font-size: 26px !important;
+    color: #f7bfbe;
+}
+
+.heading{
+    background-color: #7400b8;
+}
+
+.btn-success {
+    font-size: 20px;
+}
+
+.btn-success:hover {
+    background-color: #232ED1;
+}
+
+canvas{
+    border: 2px dashed;
+    border-radius: 12px;
+    border-color: black;
+    animation-name: image;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes image {
+    from{box-shadow: 2px 2px 40px #1B263B;}
+    to{box-shadow: 2px 2px 40px #7b2cbf;}
+}
